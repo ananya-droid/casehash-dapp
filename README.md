@@ -5,6 +5,8 @@ A blockchain-based, tamper-proof verification system for judicial documents buil
 ![Blockchain](https://img.shields.io/badge/Blockchain-Ethereum-3C3C3D?style=for-the-badge&logo=ethereum)
 ![Frontend](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react)
 ![Smart Contracts](https://img.shields.io/badge/Smart%20Contracts-Solidity-363636?style=for-the-badge&logo=solidity)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Local Development](https://img.shields.io/badge/Local-Development-brightgreen?style=for-the-badge)
 
 ## 🌟 Features
 
@@ -102,35 +104,18 @@ The system follows a three-tier architecture:
 7. **Access application**
    Open http://localhost:3000 in your browser
 
-## 🚀 Deployment
+### Testing the System Locally
+1. **Connect MetaMask** to Localhost:8545
+2. **Import test accounts** from Hardhat terminal output
+3. **Register documents** and verify authenticity
+4. **Test tamper detection** by modifying files
 
-### Smart Contract Deployment
-
-#### Sepolia Testnet
-```bash
-# Set environment variables
-export ALCHEMY_API_KEY=your_alchemy_key
-export PRIVATE_KEY=your_private_key
-
-# Deploy to Sepolia
-npx hardhat run scripts/deploy.js --network sepolia
-```
-
-#### Mainnet Deployment
-```bash
-npx hardhat run scripts/deploy.js --network mainnet
-```
-
-### Frontend Deployment
-
-#### Vercel (Recommended)
-1. Connect GitHub repository to Vercel
-2. Set environment variables
-3. Deploy automatically
-
-#### Netlify
-1. Build project: `cd frontend && npm run build`
-2. Drag and drop `build` folder to Netlify
+## 🚀 Local Deployment Advantages
+- ⚡ **Instant transactions** (no gas fees)
+- 💰 **Unlimited test ETH** 
+- 🐛 **Easy debugging**
+- 🔒 **Complete privacy**
+- 🚀 **No rate limits or faucet issues**
 
 ## 📖 Usage Guide
 
@@ -211,6 +196,10 @@ We welcome contributions! Please follow these steps:
 - Update documentation accordingly
 - Use descriptive commit messages
 
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## 🛡️ Security
 
 ### Auditing
@@ -237,4 +226,8 @@ For support, questions, or contributions:
 - [ ] Cross-chain compatibility
 - [ ] Mobile application
 - [ ] API for third-party integrations
+
+---
+
+**Built with ❤️ for the blockchain and legal tech communities**
 
