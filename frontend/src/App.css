@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+}
+
+.App-header {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.connect-btn {
+  background: #f1c40f;
+  color: #2c3e50;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.connect-btn:hover {
+  background: #f39c12;
+  transform: translateY(-2px);
+}
+
+.connected {
+  color: #2ecc71;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.file-section {
+  margin: 30px 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+}
+
+.file-input {
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.register {
+  background: #2ecc71;
+  color: white;
+}
+
+.register:hover {
+  background: #27ae60;
+}
+
+.verify {
+  background: #3498db;
+  color: white;
+}
+
+.verify:hover {
+  background: #2980b9;
+}
+
+.status, .result {
+  margin: 20px 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border-left: 4px solid #3498db;
+}
+
+.status h3, .result h3 {
+  margin-top: 0;
+  color: #ecf0f1;
+}
+
+.status p, .result p {
+  margin: 10px 0;
+  font-size: 18px;
+  word-break: break-word;
+}
+
+.info {
+  margin-top: 30px;
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
