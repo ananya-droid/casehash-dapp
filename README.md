@@ -5,7 +5,7 @@ A blockchain-based, tamper-proof verification system for judicial documents buil
 ![Blockchain](https://img.shields.io/badge/Blockchain-Ethereum-3C3C3D?style=for-the-badge&logo=ethereum)
 ![Frontend](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react)
 ![Smart Contracts](https://img.shields.io/badge/Smart%20Contracts-Solidity-363636?style=for-the-badge&logo=solidity)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 
 ## 🌟 Features
 
