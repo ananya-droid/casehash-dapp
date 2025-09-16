@@ -1,14 +1,3 @@
-Perfect! I can see the issue. The Mermaid diagram syntax is causing problems in the README. Let me fix this and create a clean version:
-
-## 📝 CREATE A CLEAN README.MD:
-
-```cmd
-notepad README.md
-```
-
-**Copy and paste this fixed version** (I've removed the problematic Mermaid diagram):
-
-```markdown
 # CaseHash - Judicial Document Verification System 🔒⚖️
 
 A blockchain-based, tamper-proof verification system for judicial documents built on Ethereum. This system ensures the integrity and authenticity of legal documents through cryptographic hashing and immutable blockchain storage.
